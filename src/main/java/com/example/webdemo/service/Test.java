@@ -12,7 +12,7 @@ public class Test {
 
     public static String testHuToolUtil(){
 //        DateUt
-        return DateUtil.format(LocalDateTime.now(),"current date is yyyy-MM-dd");
+        return DateUtil.format(LocalDateTime.now(),"yyyy-MM-dd");
     }
 
 }
