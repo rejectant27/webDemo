@@ -33,19 +33,19 @@
             <scope>test</scope>
         </dependency>
 
-        <dependency>
-            <groupId>com.hutool</groupId>
-            <artifactId>zyyTool</artifactId>
-            <version>1.0.0</version>
-        </dependency>
+<!--        <dependency>-->
+<!--            <groupId>com.hutool</groupId>-->
+<!--            <artifactId>zyyTool</artifactId>-->
+<!--            <version>1.0.0</version>-->
+<!--        </dependency>-->
 
 
         <!-- https://mvnrepository.com/artifact/cn.hutool/hutool-all -->
-<!--        <dependency>-->
-<!--            <groupId>cn.hutool</groupId>-->
-<!--            <artifactId>hutool-all</artifactId>-->
-<!--            <version>5.8.4.M1</version>-->
-<!--        </dependency>-->
+        <dependency>
+            <groupId>cn.hutool</groupId>
+            <artifactId>hutool-all</artifactId>
+            <version>5.8.4.M1</version>
+        </dependency>
 
 
     </dependencies>
@@ -71,8 +71,8 @@
     </build>
     <repositories>
         <repository>
-            <id>MyFeedTest</id>
-            <url>https://pkgs.dev.azure.com/youyuezheng/TEST/_packaging/MyFeedTest/maven/v1</url>
+            <id>youyuezheng</id>
+            <url>https://pkgs.dev.azure.com/zrn7szh/_packaging/youyuezheng/maven/v1</url>
             <releases>
                 <enabled>true</enabled>
             </releases>
@@ -83,8 +83,8 @@
     </repositories>
     <distributionManagement>
         <repository>
-            <id>MyFeedTest</id>
-            <url>https://pkgs.dev.azure.com/youyuezheng/TEST/_packaging/MyFeedTest/maven/v1</url>
+            <id>youyuezheng</id>
+            <url>https://pkgs.dev.azure.com/zrn7szh/_packaging/youyuezheng/maven/v1</url>
         </repository>
     </distributionManagement>
 </project>
